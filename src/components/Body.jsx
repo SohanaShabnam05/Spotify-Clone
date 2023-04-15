@@ -5,7 +5,7 @@ import { useStateProvider } from "../utils/StateProvider";
 import { AiFillClockCircle } from "react-icons/ai";
 import { reducerCases } from "../utils/Constants";
 export default function Body({ headerBackground }) {
-  const [{ token, selectedPlaylist, selectedPlaylistId }, dispatch] =
+  const [ token, selectedPlaylist, selectedPlaylistId , dispatch] =
     useStateProvider();
 
   useEffect(() => {
